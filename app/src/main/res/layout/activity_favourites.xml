@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent" android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/favourites"
+            android:layout_width="48dp"
+            android:layout_height="43dp"
+            android:layout_x="14dp"
+            android:layout_y="13dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:src="@drawable/heart" />
+
+        <ImageButton
+            android:id="@+id/logoImg"
+            android:layout_width="54dp"
+            android:layout_height="61dp"
+            android:layout_x="159dp"
+            android:layout_y="3dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:src="@drawable/logo" />
+
+        <ImageButton
+            android:id="@+id/shop"
+            android:layout_width="48dp"
+            android:layout_height="50dp"
+            android:layout_x="297dp"
+            android:layout_y="11dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:src="@drawable/bag" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="320dp"
+            android:layout_height="3dp"
+            android:layout_x="20dp"
+            android:layout_y="121dp"
+            android:src="@drawable/line" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="102dp"
+            android:layout_y="80dp"
+            android:text="Your Favourites"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="320dp"
+            android:layout_height="3dp"
+            android:layout_x="21dp"
+            android:layout_y="273dp"
+            android:src="@drawable/line" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="86dp"
+            android:layout_height="115dp"
+            android:layout_x="21dp"
+            android:layout_y="140dp"
+            android:src="@drawable/stove" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="224dp"
+            android:layout_height="113dp"
+            android:layout_x="118dp"
+            android:layout_y="142dp"
+            android:lineSpacingExtra="8sp"
+            android:text='- Energy usage: 820kWh \n - Dimensions: 36"/42"/54" \n - This product is an EnergyStar certified stove.'
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="320dp"
+            android:layout_height="3dp"
+            android:layout_x="24dp"
+            android:layout_y="424dp"
+            android:src="@drawable/line" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="224dp"
+            android:layout_height="125dp"
+            android:layout_x="121dp"
+            android:layout_y="293dp"
+            android:lineSpacingExtra="8sp"
+            android:text='- Energy usage: 420kWh \n - Dimensions: 10"/3"/7" \n - This is a modernly designed microwave LG'
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageView25"
+            android:layout_width="320dp"
+            android:layout_height="3dp"
+            android:layout_x="25dp"
+            android:layout_y="573dp"
+            android:src="@drawable/line" />
+
+        <ImageView
+            android:id="@+id/imageView26"
+            android:layout_width="320dp"
+            android:layout_height="3dp"
+            android:layout_x="25dp"
+            android:layout_y="573dp"
+            android:src="@drawable/line" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="224dp"
+            android:layout_height="113dp"
+            android:layout_x="122dp"
+            android:layout_y="442dp"
+            android:lineSpacingExtra="8sp"
+            android:text='- Energy usage: 650kWh \n - Dimensions: 39"/40"/57" \n - This is a energy efficient Samsung washing machine'
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageView28"
+            android:layout_width="320dp"
+            android:layout_height="3dp"
+            android:layout_x="25dp"
+            android:layout_y="719dp"
+            android:src="@drawable/line" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="224dp"
+            android:layout_height="113dp"
+            android:layout_x="122dp"
+            android:layout_y="588dp"
+            android:lineSpacingExtra="8sp"
+            android:text='- Energy usage: 820kWh \n - Dimensions: 36"/42"/54" \n - This product is an EnergyStar certified stove.'
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageView31"
+            android:layout_width="320dp"
+            android:layout_height="3dp"
+            android:layout_x="25dp"
+            android:layout_y="719dp"
+            android:src="@drawable/line" />
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="320dp"
+            android:layout_height="3dp"
+            android:layout_x="29dp"
+            android:layout_y="863dp"
+            android:src="@drawable/line" />
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="320dp"
+            android:layout_height="3dp"
+            android:layout_x="29dp"
+            android:layout_y="863dp"
+            android:src="@drawable/line" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="224dp"
+            android:layout_height="113dp"
+            android:layout_x="126dp"
+            android:layout_y="732dp"
+            android:lineSpacingExtra="8sp"
+            android:text='- Energy usage: 820kWh \n - Dimensions: 36"/42"/54" \n - This product is an EnergyStar certified stove.'
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="320dp"
+            android:layout_height="3dp"
+            android:layout_x="29dp"
+            android:layout_y="1009dp"
+            android:src="@drawable/line" />
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="86dp"
+            android:layout_height="115dp"
+            android:layout_x="29dp"
+            android:layout_y="876dp"
+            android:src="@drawable/stove" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="224dp"
+            android:layout_height="113dp"
+            android:layout_x="126dp"
+            android:layout_y="878dp"
+            android:lineSpacingExtra="8sp"
+            android:text='- Energy usage: 820kWh \n - Dimensions: 36"/42"/54" \n - This product is an EnergyStar certified stove.'
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="320dp"
+            android:layout_height="3dp"
+            android:layout_x="29dp"
+            android:layout_y="1009dp"
+            android:src="@drawable/line" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="86dp"
+            android:layout_height="115dp"
+            android:layout_x="29dp"
+            android:layout_y="876dp"
+            android:src="@drawable/stove" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="78dp"
+            android:layout_height="115dp"
+            android:layout_x="25dp"
+            android:layout_y="440dp"
+            android:src="@drawable/washingmachine" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="113dp"
+            android:layout_height="125dp"
+            android:layout_x="14dp"
+            android:layout_y="730dp"
+            android:src="@drawable/refrigerator" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="94dp"
+            android:layout_height="110dp"
+            android:layout_x="15dp"
+            android:layout_y="296dp"
+            android:src="@drawable/microwave" />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="105dp"
+            android:layout_height="117dp"
+            android:layout_x="18dp"
+            android:layout_y="587dp"
+            android:src="@drawable/heater" />
+
+    </AbsoluteLayout>
+</ScrollView>

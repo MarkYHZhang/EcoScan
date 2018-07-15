@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <com.markyhzhang.shad.ecoscan.ui.camera.GraphicOverlay
+        android:id="@+id/graphicOverlay2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageButton
+        android:id="@+id/favourites"
+        android:layout_width="48dp"
+        android:layout_height="43dp"
+        android:layout_x="14dp"
+        android:layout_y="13dp"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:src="@drawable/heart" />
+
+    <ImageButton
+        android:id="@+id/logoImg"
+        android:layout_width="54dp"
+        android:layout_height="61dp"
+        android:layout_x="159dp"
+        android:layout_y="3dp"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:src="@drawable/logo" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="48dp"
+        android:layout_height="50dp"
+        android:layout_x="297dp"
+        android:layout_y="11dp"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:src="@drawable/bag" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="230dp"
+        android:layout_height="3dp"
+        android:layout_x="66dp"
+        android:layout_y="114dp"
+        android:src="@drawable/line" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="25dp"
+        android:layout_height="3dp"
+        android:layout_x="18dp"
+        android:layout_y="99dp"
+        android:src="@drawable/line" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="25dp"
+        android:layout_height="3dp"
+        android:layout_x="18dp"
+        android:layout_y="91dp"
+        android:src="@drawable/line" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="25dp"
+        android:layout_height="3dp"
+        android:layout_x="18dp"
+        android:layout_y="84dp"
+        android:src="@drawable/line" />
+
+    <SearchView
+        android:layout_width="234dp"
+        android:layout_height="55dp"
+        android:layout_x="59dp"
+        android:layout_y="67dp"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+    </SearchView>
+
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="300dp"
+        android:layout_height="3dp"
+        android:layout_x="32dp"
+        android:layout_y="434dp"
+        android:src="@drawable/line" />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="300dp"
+        android:layout_height="3dp"
+        android:layout_x="33dp"
+        android:layout_y="307dp"
+        android:src="@drawable/line" />
+
+    <ImageView
+        android:id="@+id/imageView32"
+        android:layout_width="300dp"
+        android:layout_height="3dp"
+        android:layout_x="33dp"
+        android:layout_y="182dp"
+        android:src="@drawable/line" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="118dp"
+        android:layout_y="141dp"
+        android:text="Featured Items"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView36"
+        android:layout_width="96dp"
+        android:layout_height="103dp"
+        android:layout_x="41dp"
+        android:layout_y="193dp"
+        android:src="@drawable/washingmachine" />
+
+    <ImageView
+        android:id="@+id/imageView35"
+        android:layout_width="96dp"
+        android:layout_height="103dp"
+        android:layout_x="41dp"
+        android:layout_y="321dp"
+        android:src="@drawable/microwave" />
+
+    <ImageView
+        android:id="@+id/imageView37"
+        android:layout_width="96dp"
+        android:layout_height="103dp"
+        android:layout_x="42dp"
+        android:layout_y="445dp"
+        android:src="@drawable/stove" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="191dp"
+        android:layout_height="105dp"
+        android:layout_x="144dp"
+        android:layout_y="194dp"
+        android:text='- Energy usage: 650kWh \n - Dimensions: 39"/40"/57" \n - This is a energy efficient Samsung washing machine' />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="191dp"
+        android:layout_height="105dp"
+        android:layout_x="146dp"
+        android:layout_y="320dp"
+        android:text='- Energy usage: 420kWh \n - Dimensions: 10"/3"/7" \n - This is a modernly designed microwave designed and manufactured by LG' />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="191dp"
+        android:layout_height="105dp"
+        android:layout_x="146dp"
+        android:layout_y="448dp"
+        android:text='- Energy usage: 820kWh \n - Dimensions: 36"/42"/54" \n - This product is an EnergyStar certified stove.' />
+</AbsoluteLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:id="@+id/topLayout"
+    android:orientation="vertical"
+    android:keepScreenOn="true">
+
+    <com.markyhzhang.shad.ecoscan.ui.camera.CameraSourcePreview
+        android:id="@+id/preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.markyhzhang.shad.ecoscan.ui.camera.GraphicOverlay
+            android:id="@+id/graphicOverlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </com.markyhzhang.shad.ecoscan.ui.camera.CameraSourcePreview>
+
+    <ImageButton
+        android:id="@+id/favourites"
+        android:layout_width="48dp"
+        android:layout_height="43dp"
+        android:layout_x="14dp"
+        android:layout_y="13dp"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:src="@drawable/heart" />
+
+    <ImageButton
+        android:id="@+id/logoImg"
+        android:layout_width="54dp"
+        android:layout_height="61dp"
+        android:layout_x="159dp"
+        android:layout_y="3dp"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:src="@drawable/logo" />
+
+    <ImageButton
+        android:id="@+id/shop"
+        android:layout_width="48dp"
+        android:layout_height="50dp"
+        android:layout_x="297dp"
+        android:layout_y="11dp"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:src="@drawable/bag" />
+
+</AbsoluteLayout>
+

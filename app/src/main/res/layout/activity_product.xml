@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+    <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent" android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="320dp"
+            android:layout_height="3dp"
+            android:layout_x="16dp"
+            android:layout_y="297dp"
+            android:src="@drawable/line" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="320dp"
+            android:layout_height="3dp"
+            android:layout_x="16dp"
+            android:layout_y="297dp"
+            android:src="@drawable/line" />
+
+        <ImageButton
+            android:id="@+id/favourites"
+            android:layout_width="48dp"
+            android:layout_height="43dp"
+            android:layout_x="14dp"
+            android:layout_y="13dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:src="@drawable/heart" />
+
+        <ImageButton
+            android:id="@+id/logoImg"
+            android:layout_width="54dp"
+            android:layout_height="61dp"
+            android:layout_x="159dp"
+            android:layout_y="3dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:src="@drawable/logo" />
+
+        <ImageButton
+            android:id="@+id/shop"
+            android:layout_width="48dp"
+            android:layout_height="50dp"
+            android:layout_x="297dp"
+            android:layout_y="11dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:src="@drawable/bag" />
+
+        <ImageView
+            android:id="@+id/productImage"
+            android:layout_width="111dp"
+            android:layout_height="156dp"
+            android:layout_x="12dp"
+            android:layout_y="75dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/refrigerator" />
+
+        <ImageView
+            android:id="@+id/costCircle"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_x="141dp"
+            android:layout_y="95dp"
+            android:src="@drawable/circle" />
+
+        <ImageView
+            android:id="@+id/energyCircle"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_x="252dp"
+            android:layout_y="95dp"
+            android:src="@drawable/circle" />
+
+        <TextView
+            android:id="@+id/productTitle"
+            android:layout_width="116dp"
+            android:layout_height="41dp"
+            android:layout_x="14dp"
+            android:layout_y="234dp"
+            android:text='LG 36" French Door Refrigerator'
+            android:textAlignment="center"
+            android:textSize="14.5sp" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="320dp"
+            android:layout_height="3dp"
+            android:layout_x="18dp"
+            android:layout_y="413dp"
+            android:src="@drawable/line" />
+
+        <TextView
+            android:id="@+id/gasText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="29dp"
+            android:layout_y="378dp"
+            android:text="- 3L of natural gas"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/coalText"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:layout_x="29dp"
+            android:layout_y="350dp"
+            android:text="- 5Kg of coal"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="27dp"
+            android:layout_y="316dp"
+            android:text="Consumption of Earth"
+            android:textSize="21sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="31dp"
+            android:layout_y="427dp"
+            android:text="Description"
+            android:textSize="21sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="296dp"
+            android:layout_height="77dp"
+            android:layout_x="30dp"
+            android:layout_y="461dp"
+            android:text="This is a 36 inch frigerator made by LG with a French style door. It is EnergyStar rated."
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/costText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="145dp"
+            android:layout_y="138dp"
+            android:text="$150 / Year"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/energyText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="260dp"
+            android:layout_y="138dp"
+            android:text="507kWh/y"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            style="@android:style/Widget.DeviceDefault.RatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="125dp"
+            android:layout_y="227dp"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/line1"
+            android:layout_width="320dp"
+            android:layout_height="3dp"
+            android:layout_x="22dp"
+            android:layout_y="552dp"
+            android:src="@drawable/line" />
+
+        <Button
+            android:id="@+id/button3"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="122dp"
+            android:layout_height="wrap_content"
+            android:layout_x="45dp"
+            android:layout_y="580dp"
+            android:background="?android:attr/colorControlHighlight"
+            android:text="Add To Cart"
+            android:textColor="@color/common_google_signin_btn_text_light_default" />
+
+        <Button
+            android:id="@+id/checkout"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="122dp"
+            android:layout_height="wrap_content"
+            android:layout_x="187dp"
+            android:layout_y="579dp"
+            android:background="?android:attr/colorControlHighlight"
+            android:text="Checkout"
+            android:textColor="@color/common_google_signin_btn_text_light_default" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_x="115dp"
+            android:layout_y="652dp"
+            android:src="@drawable/circle" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="133dp"
+            android:layout_y="701dp"
+            android:text="REVIEWS"
+            android:textColor="?android:attr/colorBackground"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="33dp"
+            android:layout_y="788dp"
+            android:src="@drawable/user" />
+
+        <TextView
+            android:id="@+id/reviewA"
+            android:layout_width="227dp"
+            android:layout_height="wrap_content"
+            android:layout_x="103dp"
+            android:layout_y="788dp"
+            android:text="This product is one of the most energy efficient fridge that I bought."
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="35dp"
+            android:layout_y="872dp"
+            android:src="@drawable/user" />
+
+        <TextView
+            android:id="@+id/reviewb"
+            android:layout_width="229dp"
+            android:layout_height="wrap_content"
+            android:layout_x="104dp"
+            android:layout_y="877dp"
+            android:text="Although this fridge cost a bit more, but its efficiency pays off."
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="36dp"
+            android:layout_y="956dp"
+            android:src="@drawable/user" />
+
+        <TextView
+            android:id="@+id/reviewc"
+            android:layout_width="229dp"
+            android:layout_height="wrap_content"
+            android:layout_x="105dp"
+            android:layout_y="961dp"
+            android:text="This fridge does not sacrifice capacity for efficiency."
+            android:textSize="18sp" />
+
+        <Space
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_x="152dp"
+            android:layout_y="1022dp" />
+
+    </AbsoluteLayout>
+</ScrollView>
